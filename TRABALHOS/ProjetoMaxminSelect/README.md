@@ -78,11 +78,11 @@ T(n) = 2T(n/2) + O(1)
 
 - **a = 2**, **b = 2**, **f(n) = O(1)**
 - \(\log_b a = \log_2 2 = 1\)
-- Como \( f(n) = O(1) \subset O(n^{1 - \epsilon}) \), aplica-se o **Caso 1**.
+- Como ( f(n) = O(1) ) é menor que ( n^{\log_b a} = n^1 ), o algoritmo se enquadra no Caso 1.
 
 Portanto:
 \[
-T(n) = O(n)
+[ T(n) = O(n^{\log_b a}) = O(n) ]
 \]
 
 ---
